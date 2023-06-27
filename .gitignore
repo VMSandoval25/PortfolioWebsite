@@ -1,5 +1,6 @@
 client/node_modules/
 client/.node_modules/
+client/.next/static/webpack/pages/index.*.hot-update.js
 built/*
 tests/cases/rwc/*
 tests/cases/perf/*

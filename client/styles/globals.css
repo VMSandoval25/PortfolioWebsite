@@ -15,6 +15,11 @@
   padding: 2.5rem 2.5rem 2.5rem;
 }
 
+.bg-contact {
+  color: black;
+  padding: 2.5rem 2.5rem 2.5rem;
+}
+
 .nav-option{
   color: white;
   padding-left: 0.75rem/* 12px */;
@@ -236,6 +241,74 @@
   margin-left: 1rem;
   text-decoration: none;
 }
+
+/*  FOR CONTACT SECTION
+*****************************
+*****************************
+*****************************
+*/
+
+.contact-info {
+  margin-bottom: 20px;
+  color:#025839;
+  font-family: 'Space Mono', monospace;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form h3 {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:#1fe633;
+}
+
+.contact-form form {
+  display: grid;
+  grid-gap: 10px;
+  color: #1fe633;
+}
+
+.contact-form .form-group label {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color:#025839;
+  font-family: 'Space Mono', monospace;
+}
+
+.contact-form .form-group textarea {
+  resize: vertical;
+}
+
+.contact-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #1fe633;
+  color:#4b6c54;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} 
+
+.button-text{
+  font-family: 'Space Mono', monospace;
+  font-weight:bolder;
+}
+
+/* CONTACTSECTION
+*/
+
+
 
 
 

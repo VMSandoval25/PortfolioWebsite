@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           <Typed
             strings={["Hello, world", "Hi, I am Victor Sandoval"]}
             backSpeed={60}
-            typeSpeed={80}
+            typeSpeed={70}
             onComplete={() => setShowH2(true)}
           />
         </h1>

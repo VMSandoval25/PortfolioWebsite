@@ -40,8 +40,8 @@ const AboutSection: React.FC = () => {
             <div
               className={
                 isVerticalLayout
-                  ? "w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden"
-                  : "w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden"
+                  ? "w-64 h-64 md:w-96 md:h-96 overflow-hidden rounded-lg  border-8 border-slate-900"
+                  : "w-64 h-64 md:w-96 md:h-96 overflow-hidden rounded-lg  border-8 border-slate-900"
               }
             >
               <Image
@@ -54,7 +54,7 @@ const AboutSection: React.FC = () => {
               />
             </div>
           </div>
-          <div className={isVerticalLayout ? "mb-6" : "w-1/2"}>
+          <div className={isVerticalLayout ? "mb-6 rounded-md border-y-4 border-green-800 p-10" : "rounded-md p-10 w-1/2 border-x-4 border-green-800"}>
             <div className="max-w-lg mx-auto">
               <p className="profile-text text-lg mb-4">
                 Nice to meet you! I am a first-generation college graduate from
