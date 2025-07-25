@@ -8,7 +8,10 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "Node",               // changed from "bundler"
+    "esModuleInterop": true,                  // added
+    "allowSyntheticDefaultImports": true,     // added
+    "resolveJsonModule": true,                // added
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
