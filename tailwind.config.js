@@ -50,6 +50,51 @@ export default {
         '.rotate-y-180': {
           transform: 'rotateY(180deg)',
         },
+        '.responsive-section': {
+          paddingBlock: 'clamp(2rem, 8vh, 6rem)',  // top and bottom padding
+          paddingInline: 'clamp(1rem, 6vw, 5rem)', // left and right padding
+          minHeight: '100vh',
+          display: 'flex',
+          justifyContent: 'center',
+        },
+        '.responsive-about-container': {
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 'clamp(2rem, 8vw, 8rem)',
+          // maxWidth: 'clamp(960px, 85vw, 1280px)', // Similar to max-w-6xl but flexible
+          width: '100%',
+        },
+        '@screen lg': {
+          '.responsive-about-container': {
+            flexDirection: 'row',
+            alignItems: 'flex-start',
+            gap: 'clamp(0.5rem, 1vw, .75rem)', // slightly smaller gap on large screens
+          },
+        },
+        '.about-image-block': {
+          width: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+
+          '@screen lg': {
+            width: '50%',
+          },
+        },
+        '.responsive-about-image': {
+          width: '100%',
+          aspectRatio: '3 / 4',
+          maxWidth: '70%',
+          '@screen sm': { width: '60%' },
+          '@screen md': { width: '50%' },
+          '@screen lg': { width: '80%' },
+          '@screen xl': { width: '60%' },
+          '@screen 2xl': { width: '60%' },
+        },
+        '.about-image': {
+          '@apply w-full h-full object-cover rounded-2xl shadow-xl cursor-pointer transition duration-300 hover:opacity-90': {},
+        },
       });
     },
     function ({ addComponents }) {

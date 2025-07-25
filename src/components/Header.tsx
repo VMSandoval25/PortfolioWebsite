@@ -15,18 +15,19 @@ export default function Header() {
     <>
       <header className={`header ${scrolled ? 'header-scrolled' : 'header-unscrolled'}`}>
         {/* Logo */}
-        <div className={`logo ${scrolled ? 'logo-scrolled' : 'logo-unscrolled'}`}>
+        <div className={`logo ${scrolled ? 'logo-scrolled uppercase' : 'logo-unscrolled uppercase'}`}>
           Victor
         </div>
 
         {/* Desktop Nav */}
         <nav className={`desktop-nav ${scrolled ? 'desktop-nav-scrolled' : 'desktop-nav-unscrolled'}`}>
-          <a href="#background" className="nav-link">background</a>
-          <a href="#experience" className="nav-link">experience</a>
+          <a href="#background" className="nav-link uppercase">background</a>
+          <a href="#about" className="nav-link uppercase">about</a>
+          <a href="#experience" className="nav-link uppercase">experience</a>
           {/* <a href="#projects" className="nav-link">projects</a> */}
           <a
             href="#contact"
-            className={scrolled ? 'contact-btn-scrolled' : 'contact-btn-unscrolled'}
+            className={scrolled ? 'contact-btn-scrolled uppercase' : 'contact-btn-unscrolled uppercase'}
           >
             Let's Contact
           </a>
@@ -45,10 +46,11 @@ export default function Header() {
       {/* ✅ Moved this OUTSIDE header */}
       {menuOpen && (
         <div className="mobile-menu">
-          <a href="#background" onClick={() => setMenuOpen(false)} className="mobile-link">background</a>
-          <a href="#experience" onClick={() => setMenuOpen(false)} className="mobile-link">experience</a>
+          <a href="#background" onClick={() => setMenuOpen(false)} className="mobile-link uppercase">background</a>
+          <a href="#about" onClick={() => setMenuOpen(false)} className="mobile-link uppercase">about</a>
+          <a href="#experience" onClick={() => setMenuOpen(false)} className="mobile-link uppercase">experience</a>
           {/* <a href="#projects" onClick={() => setMenuOpen(false)} className="mobile-link">projects</a> */}
-          <a href="#contact" onClick={() => setMenuOpen(false)} className="mobile-contact">
+          <a href="#contact" onClick={() => setMenuOpen(false)} className="mobile-contact uppercase">
             Let's Contact
           </a>
         </div>
