@@ -51,7 +51,7 @@ export default {
           transform: 'rotateY(180deg)',
         },
         '.responsive-section': {
-          paddingBlock: 'clamp(2rem, 8vh, 6rem)',  // top and bottom padding
+          paddingBlock: 'clamp(5rem, 8vh, 8rem)',  // top and bottom padding
           paddingInline: 'clamp(1rem, 6vw, 5rem)', // left and right padding
           minHeight: '100vh',
           display: 'flex',
@@ -85,15 +85,16 @@ export default {
         '.responsive-about-image': {
           width: '100%',
           aspectRatio: '3 / 4',
-          maxWidth: '70%',
-          '@screen sm': { width: '60%' },
+          maxWidth: '80%',
+          '@screen sm': { width: '80%' },
           '@screen md': { width: '50%' },
           '@screen lg': { width: '80%' },
           '@screen xl': { width: '60%' },
           '@screen 2xl': { width: '60%' },
         },
         '.about-image': {
-          '@apply w-full h-full object-cover rounded-2xl shadow-xl cursor-pointer transition duration-300 hover:opacity-90': {},
+          '@apply w-full h-full object-cover rounded-2xl shadow-xl cursor-pointer transition-opacity duration-1000 ease-in-out': {},
+          '@apply bg-primary p-2 rounded-2xl shadow-2xl border border-white/20': {},
         },
       });
     },
