@@ -47,9 +47,7 @@ export default function About() {
                     </h2>
                     <div text-caption text-secondary>
                         Hi, I’m Victor — a software engineer raised in the San Fernando Valley by immigrant parents. I’m passionate about building software that makes a positive impact. I work across the full stack to develop scalable ML pipelines, Android workflows, and intuitive tools—blending backend logic with thoughtful design to simplify complex operations.<br /><br />
-
                         As a first-generation college graduate, my journey has taught me resilience, gratitude, and the value of hard work—qualities I bring to every team and project.<br /><br />
-
                         Outside of engineering, I love exploring emerging technologies, volunteering in my community, and spending quality time with my family.
                     </div>
 
