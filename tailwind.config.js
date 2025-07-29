@@ -206,6 +206,12 @@ export default {
         '.project-image': {
           '@apply rounded-2xl shadow-xl object-contain h-full max-w-4xl transition duration-500 ease-in-out': {},
         },
+        '@media (max-width: 640px)': {
+          '.project-image': {
+            '@apply h-auto w-full max-h-[60vh] object-contain': {},
+          },
+        },
+
         '.arrow-button': {
           '@apply absolute top-1/2 transform -translate-y-1/2 px-4 text-3xl cursor-pointer select-none text-muted hover:text-primary transition-colors duration-200': {},
         },
