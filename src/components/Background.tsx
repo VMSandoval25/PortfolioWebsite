@@ -20,7 +20,7 @@ export default function Background() {
   return (
     <section
       id="background"
-      className="min-h-screen w-full flex flex-col items-center px-4 md:px-8 pt-20 md:pt-12 pb-8 text-center overflow-x-hidden scroll-mt-20"
+      className="min-h-screen w-full flex flex-col items-center md:px-8 pt-20 md:pt-12 pb-8 text-center overflow-x-hidden scroll-mt-20"
     >
       {/* Name & Title */}
       <motion.div
@@ -67,8 +67,10 @@ export default function Background() {
               transition={{ duration: 0.4 }}
             >
               <h2 className="text-section-title mb-3">Background</h2>
-              <p className="text-section-text text-secondary leading-relaxed mx-auto max-w-5xl">
-                I'm a software engineer with a background in Machine Learning, Android, and Full Stack Development. I’m passionate about designing scalable systems, writing clean code, and building tools that actually ship. From Android apps to model pipelines, I connect all the layers.
+              <p className="text-section-text text-secondary leading-relaxed mx-auto max-w-8xl">
+                I’m a full-stack software engineer specializing in machine learning infrastructure, Android development, and scalable system design. 
+                I build pipelines that connect data to insight, tools that improve workflows, and mobile apps that ship. 
+                My recent work spans cloud-native architectures, real-time data syncing, and edge device integration.
               </p>
               <p className="mt-6 text-caption text-accent">(click to continue...)</p>
             </motion.div>

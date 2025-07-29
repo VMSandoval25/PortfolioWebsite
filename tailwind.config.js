@@ -8,8 +8,8 @@ export default {
     extend: {
       fontSize: {
         'hero-name': ['clamp(3rem, 6vw, 8rem)', { lineHeight: '1', fontWeight: '800' }],
-        'hero-subtitle': ['clamp(2rem, 2.5vw, 3.5rem)', { lineHeight: '1', fontWeight: '600' }],
-        'section-title': ['clamp(1.75rem, 2.2vw, 3.5rem)', { lineHeight: '1', fontWeight: '600' }],
+        'hero-subtitle': ['clamp(2.2rem, 3vw, 4rem)', { lineHeight: '1', fontWeight: '600' }],
+        'section-title': ['clamp(1.75rem, 2.2vw, 3.25rem)', { lineHeight: '1', fontWeight: '550' }],
         'section-text': ['clamp(1.5rem, 2vw, 1.75rem)', { lineHeight: '1.2' }],
         'caption': ['clamp(1.25rem, 1.75vw, 1.5rem)', { lineHeight: '1.5' }],
         'small-caption': ['clamp(0.7rem, 1.25vw, 1.25rem)', { lineHeight: '1.5', fontWeight: '600' }],
@@ -185,6 +185,37 @@ export default {
         },
         '.mobile-contact': {
           '@apply bg-white text-primary px-5 py-2 rounded-full text-xl': {},
+        },
+        '.responsive-project-width': {
+          width: '100%',
+          maxWidth: 'clamp(320px, 92vw, 1800px)',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          paddingLeft: '1rem',
+          paddingRight: '1rem',
+        },
+        '.project-image-frame': {
+          '@apply relative rounded-2xl shadow-xl overflow-hidden bg-primary/10 backdrop-blur-sm': {},
+          border: '1px solid muted_alt',
+          height: 'clamp(400px, 60vh, 700px)',
+          width: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        },
+        '.project-image': {
+          '@apply rounded-2xl shadow-xl object-contain h-full max-w-4xl transition duration-500 ease-in-out': {},
+        },
+        '.arrow-button': {
+          '@apply absolute top-1/2 transform -translate-y-1/2 px-4 text-3xl cursor-pointer select-none text-muted hover:text-primary transition-colors duration-200': {},
+        },
+        '.project-section-title': {
+          '@apply text-primary text-section-text font-bold': {},
+          paddingTop: 'clamp(0.5rem, 2vw, 1rem)',
+        },
+        '.project-text-content': {
+          '@apply text-secondary text-section-text': {},
+          paddingTop: 'clamp(0.25rem, 1vw, 0.75rem)',
         },
       });
     },

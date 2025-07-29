@@ -46,9 +46,16 @@ export default function About() {
                         About Me
                     </h2>
                     <div text-caption text-secondary>
-                        Hi, I’m Victor — a software engineer raised in the San Fernando Valley by immigrant parents. I’m passionate about building software that makes a positive impact. I work across the full stack to develop scalable ML pipelines, Android workflows, and intuitive tools—blending backend logic with thoughtful design to simplify complex operations.<br /><br />
-                        As a first-generation college graduate, my journey has taught me resilience, gratitude, and the value of hard work—qualities I bring to every team and project.<br /><br />
-                        Outside of engineering, I love exploring emerging technologies, volunteering in my community, and spending quality time with my family.
+                        I grew up in the San Fernando Valley as a first-generation college student raised by immigrant parents. 
+                        That experience shaped my grit, curiosity, and drive to make a positive impact with tech. I care about 
+                        using software to empower people—whether through automation, education, or access. Outside of engineering, 
+                        I explore emerging tech, volunteer in my community, and value deep time with family.
+                        <br/><br/> 
+                        I didn’t grow up around engineers or startups, but I was always pulling things apart—remotes, websites, and anything 
+                        I could tinker with. I’d root old Android devices just to unlock more functionality, chasing every opportunity to push the 
+                        limits of the tools I had access to. Even without the latest gear, I stayed curious and scrappy, determined to understand 
+                        how technology worked and how I could shape it. That early curiosity matured into a builder’s mindset—one grounded in 
+                        resourcefulness, experimentation, and a deep commitment to creating tools that matter.
                     </div>
 
                 </div>

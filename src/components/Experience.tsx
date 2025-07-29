@@ -82,7 +82,7 @@ export default function Experience() {
   }, [focusedIdx]);
 
   return (
-    <section id="experience" className="min-h-screen px-6 py-24 text-primary overflow-hidden">
+    <section id="experience" className="min-h-screen px-6 py-12 text-primary overflow-hidden">
       <h2 className="text-hero-subtitle text-center mb-16">Experience</h2>
       <div className="max-w-screen-xl mx-auto relative">
         <motion.div

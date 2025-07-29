@@ -24,7 +24,7 @@ export default function Header() {
           <a href="#background" className="nav-link uppercase">background</a>
           <a href="#about" className="nav-link uppercase">about</a>
           <a href="#experience" className="nav-link uppercase">experience</a>
-          {/* <a href="#projects" className="nav-link">projects</a> */}
+          <a href="#projects" className="nav-link uppercase">projects</a>
           <a
             href="#contact"
             className={scrolled ? 'contact-btn-scrolled uppercase' : 'contact-btn-unscrolled uppercase'}
