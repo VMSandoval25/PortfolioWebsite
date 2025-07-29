@@ -22,7 +22,7 @@ const experiences = [
     date: 'October 2023 - June 2025',
     company: 'Metafoodx Inc.',
     technologies: ['Python', 'JAVA (Android Development)', 'Javascript',
-      'Vue', 'NodeJS', 'Flask', 'MySQL', 'AWS S3 & EC2', 'Docker', 'Jenkins'],
+      'Vue', 'NodeJS', 'Flask', 'MySQL', 'AWS', 'Docker', 'Jenkins'],
     summary:
       `At Metafoodx Inc., I built scalable machine learning pipelines for food recognition and led on automating 
       systems that streamlined data audits.  I also led Android and full-stack development efforts, building 
@@ -144,7 +144,7 @@ export default function Experience() {
                   }}
                 >
                   <div className="card-face card-front">
-                    <div className="flex flex-col gap-4 h-full">
+                    <div className="flex flex-col gap-4 h-full overflow-hidden">
                       <div>
                         <div className="text-base text-primary text-section-text uppercase  tracking-wide mb-2">
                           {exp.company}
@@ -173,7 +173,7 @@ export default function Experience() {
                     </div>
                   </div>
 
-                  <div className="card-face card-back">
+                  <div className="card-face card-back overflow-hidden">
                     {isDesktop ? (
                       <>
                         <h3 className="text-xl font-bold mb-4">Details</h3>
@@ -233,7 +233,7 @@ export default function Experience() {
                     Tap to flip
                   </div>
                 </div>
-                <div className="card-face card-back">
+                <div className="card-face card-back overflow-hidden">
                   <div className="mb-4">
                     <div className="text-base text-bright_accent text-section-text uppercase tracking-wide mb-1">
                       {experiences[focusedIdx % experiences.length].company}
