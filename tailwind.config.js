@@ -181,10 +181,10 @@ export default {
           '@apply fixed top-0 left-0 w-full h-full bg-primary text-white flex flex-col items-center justify-center gap-8 z-50 px-4 py-8 overflow-y-auto': {},
         },
         '.mobile-link': {
-          '@apply text-xl': {},
+          '@apply text-xl uppercase': {},
         },
         '.mobile-contact': {
-          '@apply bg-white text-primary px-5 py-2 rounded-full text-xl': {},
+          '@apply bg-white text-primary px-5 py-2 rounded-full text-xl uppercase': {},
         },
         '.responsive-project-width': {
           width: '100%',

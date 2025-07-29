@@ -46,11 +46,11 @@ export default function Header() {
       {/* ✅ Moved this OUTSIDE header */}
       {menuOpen && (
         <div className="mobile-menu">
-          <a href="#background" onClick={() => setMenuOpen(false)} className="mobile-link uppercase">background</a>
-          <a href="#about" onClick={() => setMenuOpen(false)} className="mobile-link uppercase">about</a>
-          <a href="#experience" onClick={() => setMenuOpen(false)} className="mobile-link uppercase">experience</a>
-          {/* <a href="#projects" onClick={() => setMenuOpen(false)} className="mobile-link">projects</a> */}
-          <a href="#contact" onClick={() => setMenuOpen(false)} className="mobile-contact uppercase">
+          <a href="#background" onClick={() => setMenuOpen(false)} className="mobile-link">background</a>
+          <a href="#about" onClick={() => setMenuOpen(false)} className="mobile-link">about</a>
+          <a href="#experience" onClick={() => setMenuOpen(false)} className="mobile-link">experience</a>
+          <a href="#projects" onClick={() => setMenuOpen(false)} className="mobile-link">projects</a>
+          <a href="#contact" onClick={() => setMenuOpen(false)} className="mobile-contact">
             Let's Contact
           </a>
         </div>
